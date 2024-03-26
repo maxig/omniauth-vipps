@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gem "rake", "~> 13.0"
 
 group :test do
-  gem "addressable", "~> 2.3.8"
+  gem "addressable", ">= 2.8.0"
   gem 'coveralls_reborn', '~> 0.19.0'
   gem "json"
   gem "mime-types", "~> 1.25"
