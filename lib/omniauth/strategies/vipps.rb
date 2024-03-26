@@ -6,7 +6,7 @@ module OmniAuth
     # Main class for Vipps OAuth2 strategy.
     class Vipps < OmniAuth::Strategies::OAuth2
       DEFAULT_SCOPE = 'openid name phoneNumber address birthDate email'
-      BASE_URL = 'https://apitest.vipps.no'
+      BASE_URL = 'https://api.vipps.no'
       USER_INFO_URL = '/vipps-userinfo-api/userinfo/'
 
       option :name, 'vipps'
